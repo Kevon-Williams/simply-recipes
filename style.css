@@ -145,3 +145,36 @@ html
 .recipes a:hover{
     color: var(--primary-500);
 }
+
+/* recipe cards */
+
+.grid-col-2 {
+    width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    /* padding-right: 80px; */
+}
+
+
+.card img{
+    width: 300px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.grid-container p {
+    font-size:12px;
+}
+
+.card h5 {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
