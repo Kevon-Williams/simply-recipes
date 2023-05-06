@@ -75,6 +75,11 @@ html
     font-family: var(--headingFont);
 }
 
+
+.logo:hover {
+    cursor: pointer;
+}
+
 .nav-left {
     margin-right: auto; 
     margin-left: 30px;
@@ -87,7 +92,7 @@ html
     transition: all 0.4s ease;
 }
 .nav-left a:hover {
-    color: var(--primary-600);
+    color: var(--primary-500);
     cursor: pointer;
 }
 
@@ -104,6 +109,10 @@ html
     font-size: 16px;
     background-color: var(--primary-500);
     color: var(--white)
+}
+
+.contact:hover {
+    background-color: var(--primary-700);
 }
 
 /* Main */
@@ -151,7 +160,7 @@ html
 }
 
 .recipes a:hover{
-    color: var(--primary-600);
+    color: var(--primary-500);
 }
 
 /* recipe cards */
@@ -168,6 +177,14 @@ html
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     /* padding-right: 80px; */
+}
+
+.grid-container .card a {
+    color: var(--grey-700);
+}
+
+.grid-container .card a:hover {
+    cursor: pointer;
 }
 
 
