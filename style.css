@@ -7,7 +7,8 @@ html
     margin: 0px;
     text-decoration: none;
     list-style: none;
-    font-family: var(--headingFont);
+    font-family: var(--bodyFont);
+    /* outline: 1px solid red; */
 }
 
 :root {
@@ -71,6 +72,7 @@ html
     justify-content: space-between;
     align-items: center;
     padding: 30px 200px;
+    font-family: var(--headingFont);
 }
 
 .nav-left {
@@ -94,4 +96,29 @@ html
     font-size: 16px;
     background-color: var(--primary-500);
     color: var(--white)
+}
+
+/* Main */
+.main  {
+    font-family: var(--bodyFont);
+    width: 1100px;
+    margin: 20px auto;
+}
+
+
+.hero {
+    color: var(--grey-50);
+    text-align: center;
+    background-image: url('img/main.jpeg');
+    background-size:cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+.hero h3 {
+    font-size: 25px;
 }
