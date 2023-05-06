@@ -83,6 +83,14 @@ html
     gap: 18px;
 }
 
+.nav-left a {
+    transition: all 0.4s ease;
+}
+.nav-left a:hover {
+    color: var(--primary-600);
+    cursor: pointer;
+}
+
 
 
 .logo {
@@ -139,11 +147,11 @@ html
 
 .recipes a {
     color: var(--grey-600);
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 
 .recipes a:hover{
-    color: var(--primary-500);
+    color: var(--primary-600);
 }
 
 /* recipe cards */
