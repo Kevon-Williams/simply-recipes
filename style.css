@@ -178,3 +178,17 @@ html
     letter-spacing: 1px;
 }
 
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background: var(--grey-900);
+    color: var(--grey-100)
+}
+
+.footer .text-blue {
+    color: var(--primary-500);
+}
