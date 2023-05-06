@@ -122,3 +122,26 @@ html
 .hero h3 {
     font-size: 25px;
 }
+
+/* recipes */
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 10px;
+}
+
+.recipes span {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.recipes a {
+    color: var(--grey-600);
+    transition: all 0.3s ease;
+}
+
+.recipes a:hover{
+    color: var(--primary-500);
+}
