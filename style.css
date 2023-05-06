@@ -217,3 +217,25 @@ html
 .footer .text-blue {
     color: var(--primary-500);
 }
+
+/* Single Ingredient Styles */
+/* Main-content-grid */
+
+
+.main-content-grid {
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.banana {
+    width:400px;
+    height: 300px;
+}
+
+.time-grid img{
+    height: 20px;
+    width: 20px;
+}
