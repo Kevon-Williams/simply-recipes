@@ -311,6 +311,29 @@ html
     border-radius: 5px;
 }
 
+/* Tag template */
+
+.grid-col-2-tags {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 20px auto;
+    gap: 10px;
+    letter-spacing: var(--letterSpacing);
+}
+
+.grid-container-tags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container-tags img {
+    width: 350px;
+    object-fit: cover;
+    color: var(--grey-700);
+    margin-top: 5px;
+}
+
 /* Bottom section */
 
 .bottom-grid {
