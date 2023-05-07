@@ -141,13 +141,13 @@ html
 }
 
 /* recipes */
-
 .recipes {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
     gap: 10px;
 }
+
 
 .recipes span {
     font-size: 25px;
