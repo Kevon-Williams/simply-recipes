@@ -86,9 +86,11 @@ html
     font-size: 17px;
     display: flex;
     gap: 18px;
+    
 }
 
-.nav-left a {
+.nav-left a, .nav-left a:visited {
+    color: black;
     transition: all 0.4s ease;
 }
 .nav-left a:hover {
@@ -154,7 +156,7 @@ html
     margin-bottom: 10px;
 }
 
-.recipes a {
+.recipes a, .recipes a:visited {
     color: var(--grey-600);
     transition: all 0.4s ease;
 }
@@ -162,6 +164,7 @@ html
 .recipes a:hover{
     color: var(--primary-500);
 }
+
 
 /* recipe cards */
 
