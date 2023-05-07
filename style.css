@@ -214,12 +214,28 @@ html
     align-items: center;
     height: 70px;
     background: var(--grey-900);
-    color: var(--grey-100)
+    color: var(--grey-100);
 }
 
 .footer .text-blue {
     color: var(--primary-500);
 }
+
+/* Footer-tag-template */
+.footer-tag-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background: var(--grey-900);
+    color: var(--grey-100);
+    margin-top: 50px;
+}
+
+.footer-tag-template .text-blue {
+    color: var(--primary-500);
+}
+
 
 /* Single Ingredient Styles */
 /* Main-content-grid */
@@ -330,9 +346,13 @@ html
 .grid-container-tags img {
     width: 350px;
     object-fit: cover;
-    color: var(--grey-700);
     margin-top: 5px;
 }
+
+.grid-container-tags .card a:visited {
+    color: var(--grey-700);
+}
+
 
 /* Bottom section */
 
